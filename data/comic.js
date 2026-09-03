@@ -18,28 +18,27 @@ window.COMIC = {
   chapters: [
     {
       id: "ch-01",
-      title:  { english: "Chapter One",  ukrainian: "Розділ перший" },
+      title:  { english: "Chapter 1 - Tara and Suzie",  ukrainian: "Розділ 1 -Тара та Сюзанна" },
       blurb:  {
         english:   "Where it starts, and where it immediately goes wrong.",
         ukrainian: "З чого все починається — і де одразу йде не так."
       },
       pages: [
-        { file: "page-01.png", english: true, ukrainian: true },
-        { file: "page-02.png", english: true, ukrainian: true },
-        { file: "page-03.png", english: true, ukrainian: true },
-        { file: "page-04.png", english: true, ukrainian: true }
+        { file: "page-1.webp", english: true, ukrainian: true },
+        { file: "page-2.webp", english: true, ukrainian: true }
+        // { file: "page-3.webp", english: true, ukrainian: true }
       ]
     },
     {
       id: "ch-02",
-      title:  { english: "Chapter Two",  ukrainian: "Розділ другий" },
+      title:  { english: "Chapter 2 - Tara and Suzie's Halloween",  ukrainian: "Розділ 2 -Хеллоуїн Тари та Сюзанни" },
       blurb:  {
         english:   "In progress. New pages land here.",
         ukrainian: "У процесі. Нові сторінки з'являються тут."
       },
       pages: [
-        { file: "page-05.png", english: true, ukrainian: true },
-        { file: "page-06.png", english: true, ukrainian: true }
+        // { file: "page-5.webp", english: true, ukrainian: true },
+        // { file: "page-6.webp", english: true, ukrainian: true }
       ]
     }
   ]
