@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Comic pages — Tara and Suzie</title>
+<meta name="description" content="Every published page of the Tara and Suzie fan comic, in English or Ukrainian.">
+<link rel="icon" href="images/logo.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;800;900&family=Courier+Prime:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body data-title="title.comics" data-meta="meta.comics">
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="masthead">
+  <div class="wrap masthead__inner">
+    <a class="brand" href="index.html" data-keep-lang>
+      <span data-i18n="brand">Tara <span class="amp">&amp;</span> Suzie</span>
+    </a>
+    <nav class="nav" aria-label="Main">
+      <a href="index.html" data-keep-lang data-i18n="nav.home">Home</a>
+      <a href="comics.html" aria-current="page" data-keep-lang data-i18n="nav.comics">Comic pages</a>
+      <a href="characters.html" data-keep-lang data-i18n="nav.characters">Characters</a>
+      <a href="about.html" data-keep-lang data-i18n="nav.about">About</a>
+    </nav>
+    <div class="lang" role="group" aria-label="Language / Мова">
+      <a href="index.html" data-lang-link="english">EN</a>
+      <a href="index.html?lang=ukrainian" data-lang-link="ukrainian">УКР</a>
+    </div>
+  </div>
+</header>
+
+<div class="shell">
+<main id="main">
+
+  <section class="band band--tight">
+    <div class="wrap">
+      <p class="slug" data-i18n="comics.slug">Archive <span>//</span> <span data-total>00</span> pages</p>
+      <h1 class="split split--load page-title" data-text="Comic pages" data-i18n="comics.title">Comic pages</h1>
+      <p class="lede page-lede" data-i18n="comics.lede">
+        Tap any page to open the reader. Arrow keys turn pages, Esc closes.
+      </p>
+    </div>
+  </section>
+
+  <section class="band band--flush">
+    <div class="wrap" data-archive></div>
+  </section>
+
+</main>
+
+<footer class="foot">
+  <div class="wrap">
+    <p class="slug" data-i18n="foot.slug">Elsewhere</p>
+    <div class="foot__links">
+      <a href="https://ko-fi.com/geedro" target="_blank" rel="noopener" data-i18n="foot.kofi">Ko-fi</a>
+      <a href="https://www.youtube.com/@GEEDRO_Official_975" target="_blank" rel="noopener" data-i18n="foot.youtube">YouTube channel</a>
+      <a href="https://www.deviantart.com/supervore123" target="_blank" rel="noopener" data-i18n="foot.da">supervore on DeviantArt</a>
+    </div>
+    <p class="foot__legal" data-i18n="foot.legal">
+      <b>"Tara and Suzie" is owned by supervore productions.</b><br>
+      This is an unofficial fan comic. It is not canon, despite attempts to keep the
+      story as consistent to source material as possible. No ownership of the original
+      characters or setting is claimed.
+    </p>
+  </div>
+</footer>
+</div>
+
+<div class="reader" data-reader role="dialog" aria-modal="true" aria-label="Comic reader">
+  <div class="reader__bar">
+    <span data-reader-counter>&mdash;</span>
+    <span data-reader-note style="color:var(--rip)"></span>
+    <span class="reader__nav">
+      <button class="icon-btn" type="button" data-reader-prev data-i18n="reader.prev">&larr; Prev</button>
+      <button class="icon-btn" type="button" data-reader-next data-i18n="reader.next">Next &rarr;</button>
+      <button class="icon-btn" type="button" data-reader-close data-i18n="reader.close">Close</button>
+    </span>
+  </div>
+  <div class="reader__stage" data-reader-stage></div>
+</div>
+
+<script src="data/i18n.js"></script>
+<script src="data/comic.js"></script>
+<script src="js/site.js"></script>
+</body>
+</html>
